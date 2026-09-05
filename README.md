@@ -7,11 +7,12 @@
 # README.md
 
 ````markdown
-# NetJoin
+# Genexis-DHCP-USER-FINDER
+
 
 A lightweight Wi-Fi new device detector that monitors the DHCP client list of a compatible router and sends WhatsApp alerts when a previously unseen device appears on the network.
 
-NetJoin is designed for small networks where you want a simple notification when a new device connects, without deploying a full network monitoring platform.
+Genexis-DHCP-USER-FINDER is designed for small networks where you want a simple notification when a new device connects, without deploying a full network monitoring platform.
 
 ## Features
 
@@ -61,7 +62,7 @@ NetJoin is designed for small networks where you want a simple notification when
 
 ## Detection Logic
 
-NetJoin keeps a local record of MAC addresses that have previously been detected.
+Genexis-DHCP-USER-FINDER keeps a local record of MAC addresses that have previously been detected.
 
 For every scan:
 
@@ -112,8 +113,9 @@ If the same device reconnects later, no additional notification is generated.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/netjoin.git
-cd netjoin
+git clone https://github.com/YOUR_USERNAME/Genexis-DHCP-USER-FINDER.git
+cd Genexis-DHCP-USER-FINDER
+
 ```
 
 Copy the script:
@@ -175,7 +177,7 @@ sudo chmod 600 /etc/netjoin-router.conf
 
 ## Local Device Database
 
-NetJoin stores previously detected devices in:
+Genexis-DHCP-USER-FINDER stores previously detected devices in:
 
 ```text
 /var/lib/netjoin/devices.json
