@@ -1,9 +1,3 @@
-## Recommended repository name
-
-**`netjoin`**
-
-Short, clean, and directly represents the purpose of the project.
-
 ### Repository description
 
 > Lightweight router-based Wi-Fi new device detector with DHCP monitoring and WhatsApp alerts via self-hosted OpenWA.
