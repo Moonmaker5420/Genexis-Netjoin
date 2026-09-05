@@ -1,0 +1,5 @@
+# Copy to /etc/netjoin.conf and replace placeholders.
+OPENWA_URL=http://127.0.0.1:2785/api/sessions/YOUR_SESSION_ID/messages/send-text
+OPENWA_API_KEY=YOUR_OPENWA_API_KEY
+WHATSAPP_RECIPIENT=YOUR_WHATSAPP_RECIPIENT
+STATE_FILE=/var/lib/netjoin/devices.json

@@ -1,0 +1,17 @@
+*.env
+*.secret
+*.secrets
+devices.json
+*.cookies
+*.post
+*.response
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

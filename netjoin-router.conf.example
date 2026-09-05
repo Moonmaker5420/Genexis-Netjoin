@@ -1,0 +1,4 @@
+# Copy to /etc/netjoin-router.conf and replace placeholders.
+ROUTER_URL=http://192.168.1.1
+ROUTER_USERNAME=admin
+ROUTER_PASSWORD=YOUR_ROUTER_PASSWORD
