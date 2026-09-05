@@ -173,32 +173,6 @@ If OpenWA is self-hosted, NetJoin uses its HTTP API to send the new-device notif
 
 NetJoin does not store or implement WhatsApp authentication itself; it sends the notification through the configured OpenWA endpoint.
 
-## Security
-
-Do not commit credentials or runtime data to GitHub.
-
-Keep these files outside the repository:
-
-```text
-/etc/netjoin.conf
-/etc/netjoin-router.conf
-/var/lib/netjoin/devices.json
-```
-
-Never commit:
-
-- Router passwords
-- OpenWA API keys
-- WhatsApp recipient information
-- Real device databases containing private network information
-
-Use:
-
-```bash
-sudo chmod 600 /etc/netjoin.conf
-sudo chmod 600 /etc/netjoin-router.conf
-```
-
 ## Randomized MAC Addresses
 
 Modern phones may use private/randomized MAC addresses. If the same physical device changes its MAC address, NetJoin will treat the new MAC as a new device.
